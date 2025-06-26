@@ -4,6 +4,7 @@ import getAllPosts from "@/lib/getAllPosts";
 
 export default async function Posts() {
   const posts = await getAllPosts();
+
   return (
     <div className="mt-6">
       <h1>All posts</h1>
